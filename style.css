@@ -1,0 +1,40 @@
+p{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.bg{
+    background-color: lightgreen;
+    background-image: url(./images/cat.png);
+    border-radius: 0 10px 0 10px;
+}
+
+.bg-image{
+    height: 340px;
+    width: 513px;
+}
+
+.bg-repeat{
+    background-repeat: no-repeat;
+    height: 540px;
+}
+
+.bg-size-cover{
+    background-size: cover;
+    height: 540px;
+}
+
+.bg-fixed{
+    background-attachment: fixed;
+    height: 540px;
+}
+
+.bg-position{
+    background-position: bottom right ;
+    background-repeat: no-repeat;
+    height: 540px;
+
+    /* background: #000 url(./images/cat.png) no-repeat right top; */
+}
